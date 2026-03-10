@@ -19,4 +19,4 @@ console.log(isboool)
 let someNumber = "hitesh"
 let newString = String(someNumber)
 console.log(someNumber)
-console.log(typeof(newString))
+console.log(typeof(newString))  
