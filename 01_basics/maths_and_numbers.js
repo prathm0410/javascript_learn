@@ -16,5 +16,5 @@ console.log(Math.max(2,5,5,78,67));
 console.log(Math.random());
 const max = 35;
 const min = 10;
-console.log(Math.floor((Math.random(2,5,5,78,67)*(max-min+1))+min));// code to print random values between two numbers 
+console.log(Math.floor((Math.random(2,5,5,78,67)*(max-mi))+min));// code to print random values between two numbers 
 
