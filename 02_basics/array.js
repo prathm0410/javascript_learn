@@ -38,3 +38,10 @@ console.log(typeof(newArr))
 
 
 
+let myNewArr =[0,10,20,30,40,50]
+let mynewvar =myNewArr.slice(1,5)// last index is not included 
+console.log(mynewvar);
+console.log(myNewArr);
+
+let myNewArray=myNewArr.splice(1,3)// bhai array change kar deta hai jis index ke bich ka input diya hua hai
+console.log("B ", myNewArr);
