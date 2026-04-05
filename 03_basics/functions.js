@@ -27,4 +27,30 @@ function loginUserMessage(username="sam"){
 }
 
 console.log(loginUserMessage("garvati"));// jab kuch bhi paas nahi karoge the result comes out to be undefined 
- 
+
+
+
+function calculatecartprice(val1, val2, ...num1){
+    return num1
+}
+console.log(calculatecartprice(200,300,400,20000))
+
+const user={
+    name :"dishwasher" ,
+    price : 233
+}
+
+function handleobj(anyobject){
+    console.log(`the price of the product ${anyobject.name} is ${anyobject.price}`)
+}
+
+handleobj(user);
+
+const myNewArray=[200,300,400,500]
+
+function handlearray(getarray){
+    return getarray[1];
+}
+
+console.log(handlearray(myNewArray))
+// scope -->
