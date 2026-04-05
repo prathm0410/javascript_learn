@@ -16,4 +16,4 @@
 })();// ye ; issliye aaya kyunki function ko nahi pata ki context kaha khatam karna hai 
 ((name)=>{
     console.log(`chai piyo mat biskit khaao ${name}`)
-})("hitesh");
+})("hitesh"); 
